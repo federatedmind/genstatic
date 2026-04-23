@@ -5,7 +5,7 @@ export const siteConfig = {
   author: 'GenTatic Team',
   postsPerPage: 10,
   // Optional logo to display in the header (e.g., '/images/logo.png'). Leave empty for text-only.
-  logo: '/images/logo.png',
+  logo: '/genstatic/images/logo.png',
   // Set to 'blog' or 'docs'
   siteType: 'docs',
   // Spacing mode: 'compact' (less vertical whitespace) or 'relaxed' (more whitespace). 

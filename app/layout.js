@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 import { siteConfig } from '@/site.config';
 import Analytics from './components/Analytics';
@@ -36,12 +37,12 @@ export default function RootLayout({ children }) {
         <div className="layout-wrapper">
           <header className="site-header">
             <nav>
-              <a href="/" className="site-title">
+              <Link href="/" className="site-title">
                 {siteConfig.logo && (
                   <img src={siteConfig.logo} alt={siteConfig.title} className="site-logo" />
                 )}
                 {siteConfig.title}
-              </a>
+              </Link>
             </nav>
           </header>
           <main>{children}</main>
